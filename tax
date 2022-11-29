@@ -1,0 +1,18 @@
+#write a prg to generate employee tax
+empname = input('enter emp name:')
+basicsalary = int(input('enter basic salary:'))
+da = int(input('enter da:'))
+ta = int(input('enter da:'))
+hra = int(input('enter hra:'))
+netsalary = basicsalary + da+ta+hra
+if netsalary>100000:
+    tax = netsalary*10/100
+elif netsalary>50000:
+    tax = netsalary*10/100
+elif netsalary>40000:
+    tax =  netsalary*10/100
+elif netslary>20000:
+    tax =  netsalary*10/100
+else:
+    tax = 0
+print(tax)
